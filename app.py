@@ -14,9 +14,10 @@ if menu == "Home":
     st.write("Selamat datang! Pilih menu di samping untuk mulai belajar.")
 
 elif menu == "Baca Materi":
-    st.header("📖 Materi Ringkas")
+    st.header("📖 Dinamika Pendudukan dan Strategi Perjuangan Masa Tirani Jepang")
     st.info("Ringkasan materi berdasarkan soal kuis.")
-    st.write("1. Mitokondria: Pusat energi sel.")
+    st.write("
+Masa pendudukan militer Jepang di wilayah Indonesia (1942–1945) secara drastis dimulai dengan serangan mendadak terhadap pangkalan militer Pearl Harbor di Pasifik. Peristiwa besar ini memicu jatuhnya kekuasaan kolonial Hindia Belanda secara total. Jepang datang dengan membawa propaganda manis sebagai "Saudara Tua", namun kenyataannya prioritas utama mereka hanyalah untuk memobilisasi penduduk demi memenangkan Perang Asia Pasifik. Untuk menyukseskan rencana tersebut, Jepang secara sengaja menggandeng tokoh-tokoh pergerakan nasional Indonesia yang berpengaruh agar dapat membangun kepercayaan rakyat. Mereka berharap rakyat mau menyerahkan tenaga, pikiran, serta sumber daya alam secara sukarela untuk membantu kepentingan militer Jepang.")
     st.write("2. Kloroplas: Organel untuk fotosintesis.")
 
 elif menu == "Mulai Kuis":
