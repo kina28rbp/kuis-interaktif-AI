@@ -1,4 +1,3 @@
-%%writefile app.py
 import streamlit as st
 
 # Data Soal & Materi (Bisa kamu kembangkan nanti)
