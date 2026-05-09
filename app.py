@@ -1,4 +1,8 @@
 import streamlit as st
+if 'kuis_mulai' not in st.session_state:
+    st.session_state.kuis_mulai = False
+if 'skor_akhir' not in st.session_state:
+    st.session_state.skor_akhir = None
 
 # Data Soal & Materi (Bisa kamu kembangkan nanti)
 questions = [
@@ -41,10 +45,28 @@ elif menu == "Baca Materi":
 
 elif menu == "Mulai Kuis":
     st.header("✍️ Kuis Interaktif")
-    score = 0
-    for i, q in enumerate(questions):
-        ans = st.radio(f"Soal {i+1}: {q['soal']}", q['opsi'], key=f"q{i}")
-        if ans == q['jawaban']:
-            score += 1
-    if st.button("Lihat Skor"):
-        st.write(f"Skor kamu: {score}/{len(questions)}")
+    
+    # Gunakan form agar aplikasi tidak re-run setiap kali satu soal dijawab
+    with st.form("kuis_form"):
+        jawaban_user = []
+        for i, q in enumerate(questions):
+            # Tambahkan index=None agar tidak ada pilihan yang otomatis terpilih di awal
+            ans = st.radio(f"Soal {i+1}: {q['soal']}", q['opsi'], key=f"q{i}", index=None)
+            jawaban_user.append(ans)
+        
+        # Tombol submit di dalam form
+        submitted = st.form_submit_button("Lihat Skor")
+        
+        if submitted:
+            # Cek apakah ada soal yang belum dijawab
+            if None in jawaban_user:
+                st.warning("Silahkan jawab semua soal terlebih dahulu!")
+            else:
+                current_score = 0
+                for i, q in enumerate(questions):
+                    if jawaban_user[i] == q['jawaban']:
+                        current_score += 1
+                
+                # Simpan skor ke session state agar tetap muncul
+                st.session_state.skor_akhir = current_score
+                st.success(f"Kuis Selesai! Skor kamu: {current_score}/{len(questions)}")
