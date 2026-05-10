@@ -33,6 +33,6 @@
 
 /* 5. Memperjelas Judul Utama di tengah */
 h1 {
-    color: white;
-    text-shadow: 2px 2px 8px #000000; /* Memberi bayangan hitam agar teks putih "menonjol" */
+    color: black;
+    text-shadow: #000000; /* Memberi bayangan hitam agar teks putih "menonjol" */
 }
