@@ -36,3 +36,12 @@ h1 {
     color: black;
     text-shadow: 2px 2px 4px #000000; /* Memberi bayangan hitam agar teks putih "menonjol" */
 }
+/* Mengatur kotak pembungkus teks materi */
+[data-testid="stMarkdownContainer"] {
+    background-color: rgba(255, 255, 255, 0.85); /* Warna putih dengan transparansi 85% */
+    padding: 20px;               /* Memberi ruang di dalam kotak agar teks tidak mepet */
+    border-radius: 15px;         /* Membuat sudut kotak jadi bulat/aesthetic */
+    color: #1a1a1a !important;   /* Mengubah warna teks di dalam kotak jadi hitam agar kontras */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Memberi bayangan halus agar kotak terlihat timbul */
+    margin-bottom: 20px;
+}
