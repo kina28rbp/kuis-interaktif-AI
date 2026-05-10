@@ -1,20 +1,25 @@
-/* Ganti background seluruh halaman */
+/* 1. Background utama agar lebih elegan */
 [data-testid="stAppViewContainer"] {
-    background: linear-gradient(135deg, #1e1e2f 0%, #2d2d44 100%);
-    color: white;
+    background-color: #0e1117; /* Hitam pekat khas AI */
+    color: #ffffff;
 }
 
-/* Bikin tombol jadi bulat dan keren */
-.stButton>button {
-    border-radius: 12px;
-    background-color: #6c5ce7;
-    color: white;
-    border: none;
-    padding: 10px 24px;
-    transition: 0.3s;
+/* 2. Merapikan teks agar JELAS dibaca */
+h1, h2, h3, p, span, label {
+    color: #ffffff !important; /* Paksa semua teks jadi putih bersih */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.stButton>button:hover {
-    background-color: #a29bfe;
-    transform: translateY(-2px);
+/* 3. Membuat "Kotak Kuis" (Card Effect) */
+/* Biar pertanyaan kuisnya punya background sendiri dan gak melayang */
+.stMarkdown {
+    background: rgba(255, 255, 255, 0.05); 
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+/* 4. Mempercantik Tombol Pilihan (Radio Button) */
+div[data-testid="stMarkdownContainer"] > p {
+    font-weight: 500;
 }
