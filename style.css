@@ -1,7 +1,9 @@
 /* 1. Background utama agar lebih elegan */
 [data-testid="stAppViewContainer"] {
-    background-color: #b07838; /* Coklat anti alay */
-    color: #47423d;
+    background-image: url("https://i.pinimg.com/736x/a9/0b/15/a90b1578a6670c42509809a76e77544e.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 /* 2. Merapikan teks agar JELAS dibaca */
