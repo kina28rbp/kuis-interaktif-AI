@@ -150,7 +150,7 @@ if menu == "Home":
 
 elif menu == "Baca Materi":
     st.header("📖 Dinamika Pendudukan dan Strategi Perjuangan Masa Tirani Jepang")
-    st.info("Ringkasan materi berdasarkan soal kuis.")
+    st.info("Ringkasan materi bab 1.")
     st.write("""Masa pendudukan militer Jepang di wilayah Indonesia (1942–1945) dimulai dengan serangan mendadak terhadap
     pangkalan militer Amerika Serikat di Pearl Harbor, Pasifik. Peristiwa besar ini memicu jatuhnya kekuasaan kolonial
     Hindia Belanda secara total. Jepang datang dengan membawa propaganda manis sebagai "Saudara Tua", namun kenyataannya
