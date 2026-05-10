@@ -6,7 +6,11 @@ if 'skor_akhir' not in st.session_state:
 
 # Data Soal & Materi (Bisa kamu kembangkan nanti)
 questions = [
-    {"soal": "Apa fungsi utama mitokondria?", "opsi": ["Sintesis protein", "Penghasil energi", "Penyimpan air"], "jawaban": "Penghasil energi"},
+    {"Langkah awal yang dilakukan oleh Jepang untuk menguasai Asia adalah?", "opsi": ["a. merebut kekuasaan di Indonesia dari tangan Belanda",
+"b. menyerang pangkalan militer Amerika Serikat di Pearl Harbor",
+"c. menyerang pusat militer di Amerika Serikat",
+"d. menyatakan perang dengan negara-negara Sekutu",
+"e. menguasai wilayah Hongkong"], "jawaban": "b. menyerang pangkalan militer Amerika Serikat di Pearl Harbor"},
     {"soal": "Tempat fotosintesis pada tumbuhan adalah?", "opsi": ["Kloroplas", "Ribosom", "Vakuola"], "jawaban": "Kloroplas"}
 ]
 
