@@ -1,4 +1,14 @@
 import streamlit as st
+# Fungsi sakti untuk menyambungkan CSS
+def local_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+
+# Panggil file CSS-mu
+local_css("style.css")
+
+# --- KODE KAMU YANG LAIN DI BAWAH SINI ---
+st.title("🚀 Smart-Sprint AI")
 if 'kuis_mulai' not in st.session_state:
     st.session_state.kuis_mulai = False
 if 'skor_akhir' not in st.session_state :
