@@ -8,7 +8,6 @@ def local_css(file_name):
 local_css("style.css")
 
 # --- KODE KAMU YANG LAIN DI BAWAH SINI ---
-st.title("🚀 Smart-Sprint AI")
 if 'kuis_mulai' not in st.session_state:
     st.session_state.kuis_mulai = False
 if 'skor_akhir' not in st.session_state :
