@@ -38,10 +38,10 @@ h1 {
 }
 /* Mengatur kotak pembungkus teks materi */
 [data-testid="stMarkdownContainer"] {
-    background-color: rgba(210, 180, 140, 0.9) !important; /* Warna putih dengan transparansi 85% */
-    padding: 20px;               /* Memberi ruang di dalam kotak agar teks tidak mepet */
-    border-radius: 15px;         /* Membuat sudut kotak jadi bulat/aesthetic */
-    color: #1a1a1a !important;   /* Mengubah warna teks di dalam kotak jadi hitam agar kontras */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.2); /* Memberi bayangan halus agar kotak terlihat timbul */
+    background-color: rgba(245, 222, 179, 0.95) !important; /* Warna Wheat */
+    padding: 25px;
+    border-radius: 15px;
+    color: #3d2b1f !important; /* Tulisan coklat tua agar kontras */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
     margin-bottom: 20px;
 }
