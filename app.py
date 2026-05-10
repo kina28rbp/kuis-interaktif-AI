@@ -193,8 +193,8 @@ elif menu == "Mulai Kuis":
         # Tambahkan baris ini (pake border agar jadi kotak)
         with st.container(border=True):
             # Sekarang radio button ada di dalam container
-            ans = st.radio(f"Soal {i+1}: {q['soal']}", q['opsi'], key=f"q{i}", index=None)
-            jawaban_user.append(ans)
+                ans = st.radio(f"Soal {i+1}: {q['soal']}", q['opsi'], key=f"q{i}", index=None)
+                jawaban_user.append(ans)
         
         # Tombol submit di dalam form
         submitted = st.form_submit_button("Lihat Skor")
