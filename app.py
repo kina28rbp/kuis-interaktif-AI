@@ -63,6 +63,28 @@ questions = [
         "jawaban": "c. makin menurunnya produksi pertanian"
     },
     {
+        "soal": "Pembubaran Putera oleh Jepang disebabkan oleh?",
+        "opsi": [
+             "a. Putera lebih banyak memihak pada Barat",
+             "b. Putera lebih banyak bermanfaat bagi bangsa Indonesia",
+             "c. Putera banyak melibatkan orang-orang yang tidak jujur dan korup",
+             "d. Soekarno mendapat dukungan rakyat untuk menjadi presiden",
+             "e. Putera bekerja sama dengan para pejuang"
+        ],
+        "jawaban": "b. Putera lebih banyak bermanfaat bagi bangsa Indonesia"
+    }
+    {
+        "soal": "Perlawanan terhadap Jepang terjadi di berbagai daerah.
+        "Pada tahun 1944, rakyat Indramayu melakukan perlawanan terhadap Jepang yang disebabkan oleh?",
+        "opsi": [
+            "a. kewajiban menyetorkan hasil tananam padi kepada Jepang",
+            "b. kewajiban penduduk Indramayu untuk menjadi anggota PETA",
+            "c. pendirian barak-barak militer Jepang di Indramayu",
+            "d. kewajiban menanam kopi dan tebu bagi penduduk Indramayu",
+            "e. penutupan sekolah-sekolah di Indramayu oleh Jepang"
+        ],
+    }
+    {
         "soal": "Tempat fotosintesis pada tumbuhan adalah?",
         "opsi": ["Kloroplas", "Ribosom", "Vakuola"],
         "jawaban": "Kloroplas"
