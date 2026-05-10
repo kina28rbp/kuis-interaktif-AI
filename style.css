@@ -33,7 +33,7 @@
 
 /* 5. Memperjelas Judul Utama di tengah */
 h1 {
-    color: rgba(#401505)
+    color: #401505;
     text-shadow: 2px 2px 4px #000000; /* Memberi bayangan hitam agar teks putih "menonjol" */
 }
 /* Mengatur kotak pembungkus teks materi */
