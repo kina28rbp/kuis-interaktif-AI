@@ -59,7 +59,7 @@ questions = [
             "c. makin menurunnya produksi pertanian",
             "d. meningkatkan produksi pertanian",
             "e. awal kegiatan ekspor hasil bumi",
-        ], 
+            ], 
         "jawaban": "c. makin menurunnya produksi pertanian"
     },
     {
@@ -67,7 +67,6 @@ questions = [
         "opsi": ["Kloroplas", "Ribosom", "Vakuola"],
         "jawaban": "Kloroplas"
     }
-]
 st.title("🚀 Smart-Sprint AI")
 
 menu = st.sidebar.selectbox("Pilih Menu", ["Home", "Baca Materi", "Mulai Kuis"])
