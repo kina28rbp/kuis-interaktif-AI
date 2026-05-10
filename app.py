@@ -5,6 +5,7 @@ if 'skor_akhir' not in st.session_state :
     st.session_state.skor_akhir = None
 
 # Data Soal & Materi (Bisa kamu kembangkan nanti)
+# Ini bagian soal sama jawaban
 questions = [
     {
         "soal": "Langkah awal yang dilakukan oleh Jepang untuk menguasai Asia adalah?",
@@ -18,6 +19,17 @@ questions = [
         "jawaban": "b. menyerang pangkalan militer Amerika Serikat di Pearl Harbor"
     },
     {
+        "soal": "Pemerintah militer Jepang membentuk badan semimiliter dalam membantu kerja polisi Jepang yang disebut?",
+        "opsi": [
+            "a. Fujinkai",
+            "b. Heiho",
+            "c. PETA",
+            "d. Keibodan",
+            "e. Seinendan"
+        ],
+        "jawaban": "d. Keibodan"
+    },
+    {
         "soal": "Tempat fotosintesis pada tumbuhan adalah?",
         "opsi": ["Kloroplas", "Ribosom", "Vakuola"],
         "jawaban": "Kloroplas"
@@ -29,6 +41,7 @@ menu = st.sidebar.selectbox("Pilih Menu", ["Home", "Baca Materi", "Mulai Kuis"])
 
 if menu == "Home":
     st.write("Selamat datang! Pilih menu di samping untuk mulai belajar.")
+# ini bagian materi
 
 elif menu == "Baca Materi":
     st.header("📖 Dinamika Pendudukan dan Strategi Perjuangan Masa Tirani Jepang")
