@@ -82,6 +82,62 @@ questions = [
             "d. kewajiban menanam kopi dan tebu bagi penduduk Indramayu",
             "e. penutupan sekolah-sekolah di Indramayu oleh Jepang"
         ],
+        "jawaban": "a. kewajiban menyetorkan hasil tananam padi kepada Jepang"
+    },
+    {
+        "soal": "Pemerintah Jepang ingin menggunakan tokoh-tokoh pergerakan nasional Indonesia dalam rangka?",
+        "opsi": [
+            "a. menjalin kerja sama politik dengan bangsa Indonesia",
+            "b. membangun kepercayaan dari bangsa Indonesia",
+            "c. mempersiapkan kemerdekaan Indonesia",
+            "d. membangkitkan perasaan anti-Barat",
+            "e. memperbaiki kehidupan bangsa Indonesia"
+        ],
+        "jawaban": "b. membangun kepercayaan dari bangsa Indonesia"
+    }, 
+    {
+        "soal": "Sejak awal masa kekuasaan pemerintah kolonial Jepang, prioritas kebijakan terhadap orang Indonesia adalah?",
+        "opsi": [
+            "a. membebaskan penduduk dari kemiskinan",
+            "b. menghapus pengaruh Barat pada penduduk bumiputra",
+            "c. memberantas pasar gelap",
+            "d. memobilisasi penduduk untuk kepentingan Jepang",
+            "e. menjadikan Indonesia sebagai bagian dari wilayah Asia Timur Raya"
+        ],
+        "jawaban": "d. memobilisasi penduduk untuk kepentingan Jepang"
+    },
+    {
+        "soal": "Alasan para pemimpin bangsa yang bersedia bekerja sama dengan pemerintah Jepang adalah?",
+        "opsi": [
+            "a. mempelajari sistem pemerintahan negara Jepang",
+            "b. mendalami tujuan sebenarnya kedatangan Jepang ke Indonesia",
+            "c. mengembangkan kemampuan berpolitik para tokoh Indonesia",
+            "d. memimpin organisasi-organisasi bentukan Jepang",
+            "e. menyusun strategi dalam mencapai kemerdekaan"
+        ],
+        "jawaban": "e. menyusun strategi dalam mencapai kemerdekaan"
+    }, 
+    {
+        "soal": "Dalam bidang pemerintahan, akibat yang ditimbulkan dari pendudukan Jepang di Indonesia adalah?",
+        "opsi": [
+            "a. wilayah Indonesia di bawah kekuasaan militer",
+            "b. kaisar memegang kendali utama di negeri jajahan",
+            "c. membagi wilayah Indonesia menjadi 68 karesidenan",
+            "d. diterapkannya sistem pemerintahan atas dasar fasisme",
+            "e. dihapuskannya negara boneka buatan Belanda"
+        ],
+        "jawaban": "a. wilayah Indonesia di bawah kekuasaan militer"
+    },
+    {
+        "soal": "Strategi perjuangan nonkooperatif gerakan bawah tanah yang dimaksud adalah?",
+        "opsi": [
+            "a. bersifat radikal",
+            "b. kegiatan organisasi kebangsaan bersifat lunak dan terbuka",
+            "c. kegiatan organisasi dilakukan secara sembunyi-sembunyi",
+            "d. kegiatan organisasi dilakukan secara masif dan ekstrimis",
+            "e. organisasi dengan terang-terangan menggalang persatuan"
+        ],
+        "jawaban": "a. bersifat radikal"
     },
     {
         "soal": "Tempat fotosintesis pada tumbuhan adalah?",
