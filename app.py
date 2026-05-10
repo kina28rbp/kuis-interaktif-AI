@@ -190,7 +190,9 @@ elif menu == "Mulai Kuis":
     with st.form("kuis_form"):
         jawaban_user = []
         for i, q in enumerate(questions):
-            # Tambahkan index=None agar tidak ada pilihan yang otomatis terpilih di awal
+        # Tambahkan baris ini (pake border agar jadi kotak)
+        with st.container(border=True):
+            # Sekarang radio button ada di dalam container
             ans = st.radio(f"Soal {i+1}: {q['soal']}", q['opsi'], key=f"q{i}", index=None)
             jawaban_user.append(ans)
         
