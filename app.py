@@ -48,9 +48,19 @@ questions = [
             "c. Keimin Bunka Sidhoso",
             "d. Dokuritsu Junbi Cosakai",
             "e. Kokumin Gakko",
-
         ], 
         "jawaban": "c. Keimin Bunka Sidhoso"
+    },
+    {
+        "soal": "Dampak pendudukan Jepang di Indonesia dalam bidang ekonomi adalah?"
+        "opsi": [
+            "a. dikenalnya berbagai macam tanaman ekspor",
+            "b. membaiknya kesejahteraan petani",
+            "c. makin menurunnya produksi pertanian",
+            "d. meningkatkan produksi pertanian",
+            "e. awal kegiatan ekspor hasil bumi",
+        ], 
+        "jawaban": "c. makin menurunnya produksi pertanian"
     },
     {
         "soal": "Tempat fotosintesis pada tumbuhan adalah?",
