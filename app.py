@@ -30,6 +30,29 @@ questions = [
         "jawaban": "d. Keibodan"
     },
     {
+        "soal": "Sidang pertama BPUPKI digelar pada tanggal?",
+        "opsi": [
+            "a. 29 Mei–7 Juni 1945", 
+            "b. 29 Mei–10 Juli 1945",
+            "c. 28 Mei–2 Juni 1945",
+            "d. 29 Mei–1 Juni 1945",
+            "e. 28 Mei–1 Juni 1945",
+        ], 
+        "jawaban": "d. 29 Mei–1 Juni 1945"
+    },
+    {
+        "soal": "Pemerintah pendudukan Jepang menaruh perhatian besar dalam bidang sastra dengan mendirikan badan yang dinamakan?",
+        "opsi": [
+            "a. Jawa Shinbunkai",
+            "b. Nederlands-Indische Radio Omroep Maatschappij",
+            "c. Keimin Bunka Sidhoso",
+            "d. Dokuritsu Junbi Cosakai",
+            "e. Kokumin Gakko",
+
+        ], 
+        "jawaban": "c. Keimin Bunka Sidhoso"
+
+    {
         "soal": "Tempat fotosintesis pada tumbuhan adalah?",
         "opsi": ["Kloroplas", "Ribosom", "Vakuola"],
         "jawaban": "Kloroplas"
