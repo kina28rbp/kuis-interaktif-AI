@@ -72,7 +72,7 @@ questions = [
              "e. Putera bekerja sama dengan para pejuang"
         ],
         "jawaban": "b. Putera lebih banyak bermanfaat bagi bangsa Indonesia"
-    }
+    },
     {
         "soal": "Perlawanan terhadap Jepang terjadi di berbagai daerah. Pada tahun 1944, rakyat Indramayu melakukan perlawanan terhadap Jepang yang disebabkan oleh?",
         "opsi": [
