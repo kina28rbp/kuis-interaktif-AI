@@ -38,7 +38,7 @@ h1 {
 }
 /* Mengatur kotak pembungkus teks materi */
 [data-testid="stMarkdownContainer"] {
-    background-color: #c9a885; /* Warna putih dengan transparansi 85% */
+    background-color: rgba(255, 255, 255, 0.9); /* Warna putih dengan transparansi 85% */
     padding: 20px;               /* Memberi ruang di dalam kotak agar teks tidak mepet */
     border-radius: 15px;         /* Membuat sudut kotak jadi bulat/aesthetic */
     color: #1a1a1a !important;   /* Mengubah warna teks di dalam kotak jadi hitam agar kontras */
