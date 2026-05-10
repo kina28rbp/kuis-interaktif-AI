@@ -1,4 +1,4 @@
-/* 1. Background utama agar lebih elegan */
+/* 1. Mengatur Background Utama */
 [data-testid="stAppViewContainer"] {
     background-image: url("https://i.pinimg.com/736x/7e/6c/16/7e6c166e3ccf199deca805152fa99cd6.jpg");
     background-size: cover;
@@ -6,22 +6,33 @@
     background-attachment: fixed;
 }
 
-/* 2. Merapikan teks agar JELAS dibaca */
-h1, h2, h3, p, span, label {
-    color: #ffffff !important; /* Paksa semua teks jadi putih bersih */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/* 2. Memberi Lapisan Gelap (Overlay) agar tulisan putih terbaca */
+[data-testid="stAppViewContainer"]::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Angka 0.3 ini tingkat kegelapannya */
+    z-index: -1;
 }
 
-/* 3. Membuat "Kotak Kuis" (Card Effect) */
-/* Biar pertanyaan kuisnya punya background sendiri dan gak melayang */
-.stMarkdown {
-    background: rgba(255, 255, 255, 0.05); 
-    padding: 20px;
-    border-radius: 15px;
-    margin-bottom: 10px;
+/* 3. Memperjelas Sidebar (Bagian yang "Hilang") */
+[data-testid="stSidebar"] {
+    background-color: rgba(255, 255, 255, 0.9) !important; /* Membuat sidebar jadi putih solid */
 }
 
-/* 4. Mempercantik Tombol Pilihan (Radio Button) */
-div[data-testid="stMarkdownContainer"] > p {
-    font-weight: 500;
+/* 4. Mewarnai Teks di Sidebar agar Hitam (Biar kelihatan) */
+[data-testid="stSidebar"] .stMarkdown, 
+[data-testid="stSidebar"] label, 
+[data-testid="stSidebar"] p {
+    color: #000000 !important;
+    font-weight: bold;
+}
+
+/* 5. Memperjelas Judul Utama di tengah */
+h1 {
+    color: white;
+    text-shadow: 2px 2px 8px #000000; /* Memberi bayangan hitam agar teks putih "menonjol" */
 }
