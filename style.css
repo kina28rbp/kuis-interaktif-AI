@@ -1,7 +1,7 @@
 /* 1. Background utama agar lebih elegan */
 [data-testid="stAppViewContainer"] {
-    background-color: #0e1117; /* Hitam pekat khas AI */
-    color: #ffffff;
+    background-color: #b07838; /* Coklat anti alay */
+    color: #8B4513;
 }
 
 /* 2. Merapikan teks agar JELAS dibaca */
