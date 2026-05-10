@@ -51,13 +51,12 @@ questions = [
 
         ], 
         "jawaban": "c. Keimin Bunka Sidhoso"
-
+    },
     {
         "soal": "Tempat fotosintesis pada tumbuhan adalah?",
         "opsi": ["Kloroplas", "Ribosom", "Vakuola"],
         "jawaban": "Kloroplas"
     }
-]
 st.title("🚀 Smart-Sprint AI")
 
 menu = st.sidebar.selectbox("Pilih Menu", ["Home", "Baca Materi", "Mulai Kuis"])
