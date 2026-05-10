@@ -82,12 +82,12 @@ questions = [
             "d. kewajiban menanam kopi dan tebu bagi penduduk Indramayu",
             "e. penutupan sekolah-sekolah di Indramayu oleh Jepang"
         ],
-    }
+    },
     {
         "soal": "Tempat fotosintesis pada tumbuhan adalah?",
         "opsi": ["Kloroplas", "Ribosom", "Vakuola"],
         "jawaban": "Kloroplas"
-    }
+    },
 ]
 st.title("🚀 Smart-Sprint AI")
 
