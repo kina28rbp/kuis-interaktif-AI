@@ -1,7 +1,7 @@
 import streamlit as st
 if 'kuis_mulai' not in st.session_state:
     st.session_state.kuis_mulai = False
-if 'skor_akhir' not in st.session_state
+if 'skor_akhir' not in st.session_state :
     st.session_state.skor_akhir = None
 
 # Data Soal & Materi (Bisa kamu kembangkan nanti)
