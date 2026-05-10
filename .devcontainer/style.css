@@ -1,0 +1,20 @@
+/* Ganti background seluruh halaman */
+[data-testid="stAppViewContainer"] {
+    background: linear-gradient(135deg, #1e1e2f 0%, #2d2d44 100%);
+    color: white;
+}
+
+/* Bikin tombol jadi bulat dan keren */
+.stButton>button {
+    border-radius: 12px;
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    transition: 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #a29bfe;
+    transform: translateY(-2px);
+}
