@@ -10,13 +10,13 @@ questions = [
     {
         "soal": "Langkah awal yang dilakukan oleh Jepang untuk menguasai Asia adalah?",
         "opsi": [
-            "a. merebut kekuasaan di Indonesia",
-            "b. menyerang pangkalan militer Amerika Serikat di Pearl Harbor",
-            "c. menyerang pusat militer di Amerika Serikat",
-            "d. menyatakan perang dengan negara-negara Sekutu",
-            "e. menguasai wilayah Hongkong"
+            "a. Merebut kekuasaan di Indonesia",
+            "b. Menyerang pangkalan militer Amerika Serikat di Pearl Harbor",
+            "c. Menyerang pusat militer di Amerika Serikat",
+            "d. Menyatakan perang dengan negara-negara Sekutu",
+            "e. Menguasai wilayah Hongkong"
         ],
-        "jawaban": "b. menyerang pangkalan militer Amerika Serikat di Pearl Harbor"
+        "jawaban": "b. Menyerang pangkalan militer Amerika Serikat di Pearl Harbor"
     },
     {
         "soal": "Pemerintah militer Jepang membentuk badan semimiliter dalam membantu kerja polisi Jepang yang disebut?",
@@ -54,13 +54,13 @@ questions = [
     {
         "soal": "Dampak pendudukan Jepang di Indonesia dalam bidang ekonomi adalah?",
         "opsi": [
-             "a. dikenalnya berbagai macam tanaman ekspor",
-             "b. membaiknya kesejahteraan petani",
-             "c. makin menurunnya produksi pertanian",
-             "d. meningkatkan produksi pertanian",
-             "e. awal kegiatan ekspor hasil bumi"
+             "a. Dikenalnya berbagai macam tanaman ekspor",
+             "b. Membaiknya kesejahteraan petani",
+             "c. Makin menurunnya produksi pertanian",
+             "d. Meningkatkan produksi pertanian",
+             "e. Awal kegiatan ekspor hasil bumi"
          ],
-        "jawaban": "c. makin menurunnya produksi pertanian"
+        "jawaban": "c. Makin menurunnya produksi pertanian"
     },
     {
         "soal": "Pembubaran Putera oleh Jepang disebabkan oleh?",
@@ -76,68 +76,68 @@ questions = [
     {
         "soal": "Perlawanan terhadap Jepang terjadi di berbagai daerah. Pada tahun 1944, rakyat Indramayu melakukan perlawanan terhadap Jepang yang disebabkan oleh?",
         "opsi": [
-            "a. kewajiban menyetorkan hasil tananam padi kepada Jepang",
-            "b. kewajiban penduduk Indramayu untuk menjadi anggota PETA",
-            "c. pendirian barak-barak militer Jepang di Indramayu",
-            "d. kewajiban menanam kopi dan tebu bagi penduduk Indramayu",
-            "e. penutupan sekolah-sekolah di Indramayu oleh Jepang"
+            "a. Kewajiban menyetorkan hasil tananam padi kepada Jepang",
+            "b. Kewajiban penduduk Indramayu untuk menjadi anggota PETA",
+            "c. Pendirian barak-barak militer Jepang di Indramayu",
+            "d. Kewajiban menanam kopi dan tebu bagi penduduk Indramayu",
+            "e. Penutupan sekolah-sekolah di Indramayu oleh Jepang"
         ],
-        "jawaban": "a. kewajiban menyetorkan hasil tananam padi kepada Jepang"
+        "jawaban": "a. Kewajiban menyetorkan hasil tananam padi kepada Jepang"
     },
     {
         "soal": "Pemerintah Jepang ingin menggunakan tokoh-tokoh pergerakan nasional Indonesia dalam rangka?",
         "opsi": [
-            "a. menjalin kerja sama politik dengan bangsa Indonesia",
-            "b. membangun kepercayaan dari bangsa Indonesia",
-            "c. mempersiapkan kemerdekaan Indonesia",
-            "d. membangkitkan perasaan anti-Barat",
-            "e. memperbaiki kehidupan bangsa Indonesia"
+            "a. Menjalin kerja sama politik dengan bangsa Indonesia",
+            "b. Membangun kepercayaan dari bangsa Indonesia",
+            "c. Mempersiapkan kemerdekaan Indonesia",
+            "d. Membangkitkan perasaan anti-Barat",
+            "e. Memperbaiki kehidupan bangsa Indonesia"
         ],
-        "jawaban": "b. membangun kepercayaan dari bangsa Indonesia"
+        "jawaban": "b. Membangun kepercayaan dari bangsa Indonesia"
     }, 
     {
         "soal": "Sejak awal masa kekuasaan pemerintah kolonial Jepang, prioritas kebijakan terhadap orang Indonesia adalah?",
         "opsi": [
-            "a. membebaskan penduduk dari kemiskinan",
-            "b. menghapus pengaruh Barat pada penduduk bumiputra",
-            "c. memberantas pasar gelap",
-            "d. memobilisasi penduduk untuk kepentingan Jepang",
-            "e. menjadikan Indonesia sebagai bagian dari wilayah Asia Timur Raya"
+            "a. Membebaskan penduduk dari kemiskinan",
+            "b. Menghapus pengaruh Barat pada penduduk bumiputra",
+            "c. Memberantas pasar gelap",
+            "d. Memobilisasi penduduk untuk kepentingan Jepang",
+            "e. Menjadikan Indonesia sebagai bagian dari wilayah Asia Timur Raya"
         ],
-        "jawaban": "d. memobilisasi penduduk untuk kepentingan Jepang"
+        "jawaban": "d. Memobilisasi penduduk untuk kepentingan Jepang"
     },
     {
         "soal": "Alasan para pemimpin bangsa yang bersedia bekerja sama dengan pemerintah Jepang adalah?",
         "opsi": [
-            "a. mempelajari sistem pemerintahan negara Jepang",
-            "b. mendalami tujuan sebenarnya kedatangan Jepang ke Indonesia",
-            "c. mengembangkan kemampuan berpolitik para tokoh Indonesia",
-            "d. memimpin organisasi-organisasi bentukan Jepang",
-            "e. menyusun strategi dalam mencapai kemerdekaan"
+            "a. Mempelajari sistem pemerintahan negara Jepang",
+            "b. Mendalami tujuan sebenarnya kedatangan Jepang ke Indonesia",
+            "c. Mengembangkan kemampuan berpolitik para tokoh Indonesia",
+            "d. Memimpin organisasi-organisasi bentukan Jepang",
+            "e. Menyusun strategi dalam mencapai kemerdekaan"
         ],
-        "jawaban": "e. menyusun strategi dalam mencapai kemerdekaan"
+        "jawaban": "e. Menyusun strategi dalam mencapai kemerdekaan"
     }, 
     {
         "soal": "Dalam bidang pemerintahan, akibat yang ditimbulkan dari pendudukan Jepang di Indonesia adalah?",
         "opsi": [
-            "a. wilayah Indonesia di bawah kekuasaan militer",
-            "b. kaisar memegang kendali utama di negeri jajahan",
-            "c. membagi wilayah Indonesia menjadi 68 karesidenan",
-            "d. diterapkannya sistem pemerintahan atas dasar fasisme",
-            "e. dihapuskannya negara boneka buatan Belanda"
+            "a. Wilayah Indonesia di bawah kekuasaan militer",
+            "b. Kaisar memegang kendali utama di negeri jajahan",
+            "c. Membagi wilayah Indonesia menjadi 68 karesidenan",
+            "d. Diterapkannya sistem pemerintahan atas dasar fasisme",
+            "e. Dihapuskannya negara boneka buatan Belanda"
         ],
-        "jawaban": "a. wilayah Indonesia di bawah kekuasaan militer"
+        "jawaban": "a. Wilayah Indonesia di bawah kekuasaan militer"
     },
     {
         "soal": "Strategi perjuangan nonkooperatif gerakan bawah tanah yang dimaksud adalah?",
         "opsi": [
-            "a. bersifat radikal",
-            "b. kegiatan organisasi kebangsaan bersifat lunak dan terbuka",
-            "c. kegiatan organisasi dilakukan secara sembunyi-sembunyi",
-            "d. kegiatan organisasi dilakukan secara masif dan ekstrimis",
-            "e. organisasi dengan terang-terangan menggalang persatuan"
+            "a. Bersifat radikal",
+            "b. Kegiatan organisasi kebangsaan bersifat lunak dan terbuka",
+            "c. Kegiatan organisasi dilakukan secara sembunyi-sembunyi",
+            "d. Kegiatan organisasi dilakukan secara masif dan ekstrimis",
+            "e. Organisasi dengan terang-terangan menggalang persatuan"
         ],
-        "jawaban": "a. bersifat radikal"
+        "jawaban": "a. Bersifat radikal"
     },
     ]
 st.title("🚀 Smart-Sprint AI")
