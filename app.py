@@ -1,18 +1,28 @@
 import streamlit as st
 if 'kuis_mulai' not in st.session_state:
     st.session_state.kuis_mulai = False
-if 'skor_akhir' not in st.session_state:
+if 'skor_akhir' not in st.session_state
     st.session_state.skor_akhir = None
 
 # Data Soal & Materi (Bisa kamu kembangkan nanti)
-questions = [ {"Langkah awal yang dilakukan oleh Jepang untuk menguasai Asia adalah?", "opsi": ["a. merebut kekuasaan di Indonesia dari tangan Belanda",
-"b. menyerang pangkalan militer Amerika Serikat di Pearl Harbor",
-"c. menyerang pusat militer di Amerika Serikat",
-"d. menyatakan perang dengan negara-negara Sekutu",
-"e. menguasai wilayah Hongkong"], "jawaban": "b. menyerang pangkalan militer Amerika Serikat di Pearl Harbor"},
-    {"soal": "Tempat fotosintesis pada tumbuhan adalah?", "opsi": ["Kloroplas", "Ribosom", "Vakuola"], "jawaban": "Kloroplas"}
+questions = [
+    {
+        "soal": "Langkah awal yang dilakukan oleh Jepang untuk menguasai Asia adalah?",
+        "opsi": [
+            "a. merebut kekuasaan di Indonesia",
+            "b. menyerang pangkalan militer Amerika Serikat di Pearl Harbor",
+            "c. menyerang pusat militer di Amerika Serikat",
+            "d. menyatakan perang dengan negara-negara Sekutu",
+            "e. menguasai wilayah Hongkong"
+        ],
+        "jawaban": "b. menyerang pangkalan militer Amerika Serikat di Pearl Harbor"
+    },
+    {
+        "soal": "Tempat fotosintesis pada tumbuhan adalah?",
+        "opsi": ["Kloroplas", "Ribosom", "Vakuola"],
+        "jawaban": "Kloroplas"
+    }
 ]
-
 st.title("🚀 Smart-Sprint AI")
 
 menu = st.sidebar.selectbox("Pilih Menu", ["Home", "Baca Materi", "Mulai Kuis"])
