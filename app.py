@@ -203,9 +203,10 @@ elif menu == "Mulai Kuis":
                 st.warning("Silahkan jawab semua soal terlebih dahulu!")
             else:
                 current_score = 0
-                for i, q in enumerate(questions):
-                    if jawaban_user[i] == q['jawaban']:
-                        current_score += 1
+               for i, q in enumerate(questions):
+            with st.container(border=True): # Gunakan ini agar rapi
+                ans = st.radio(f"Soal {i+1}: {q['soal']}", q['opsi'], key=f"q{i}", index=None)
+                jawaban_user.append(ans)
                 
                 # Simpan skor ke session state agar tetap muncul
                 st.session_state.skor_akhir = current_score
